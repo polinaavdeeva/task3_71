@@ -1,6 +1,5 @@
 package ru.vsu.cs.avdeeva_p_a;
 
-
 public class Picture {
 
     public Parabola PARABOLA = new Parabola(6, -5, 1.0/9);
