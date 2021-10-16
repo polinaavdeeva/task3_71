@@ -7,11 +7,6 @@ public class Picture {
     public Rectangle RECTANGLE= new Rectangle(2, 4, -4,1);
     public Rectangle BIG_RECTANGLE = new Rectangle(4, 7, -5,0);
 
-   /* public Picture(Parabola PARABOLA,Rectangle RECTANGLE,Rectangle BIG_RECTANGLE) {
-        this.PARABOLA=PARABOLA;
-        this.RECTANGLE=RECTANGLE;
-        this.BIG_RECTANGLE=BIG_RECTANGLE; } */
-
     public SimpleColor getColor(double x, double y) {
 
         if (PARABOLA.isPointAboveParabola(x, y) && !RECTANGLE.isPointInRectangle(x, y)) {
