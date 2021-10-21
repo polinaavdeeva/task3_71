@@ -6,10 +6,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Picture figures = new Picture(new Parabola(6, -5, 1.0 / 9),
-                new Rectangle(2, 4, -4, 1),
-                new Rectangle(4, 7, -5, 0));
-
         if (test.tests()) {
 
             System.out.print("Input x: ");
@@ -19,7 +15,8 @@ public class Main {
             double y = readNum();
 
             printColorForPoint(x, y);
-        } else {
+        } 
+        else {
             System.out.println("An error was found in the data.Re-enter the data");
         }
     }
