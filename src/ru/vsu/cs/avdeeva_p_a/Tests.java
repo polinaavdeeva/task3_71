@@ -13,7 +13,7 @@ public class Tests {
         } else return false;
     }
 
-    public static final Picture picture = new Picture(new Parabola(6, -5, 1.0 / 9),
+    private static final Picture picture = new Picture(new Parabola(6, -5, 1.0 / 9),
             new Rectangle(2, 4, -4, 1),
             new Rectangle(4, 7, -5, 0));
 
